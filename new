@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>CAMWORK</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/7b7b7b0e11.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header style="height: 0px;">
+    <div class="container-fluid">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn left_mobile_menu_btn" for="menu__toggle">
+                <div class="burger"></div>
+                <p class="name_menu">МЕНЮ</p>
+            </label>
+            <ul class="menu__box left_mobile_menu mscrollbar">
+                <div class="my_cab" style="margin-bottom: 30px;">
+                    <div class="row">
+                        <div class="col-5">
+                            <a href><img src="fonts/exit.svg" alt class="exit_button"></a>
+                            <div class="ava">
+                                <img src="images/ava1.png" alt>
+                                <button>+</button>
+                            </div>
+                            <div class="my_cab_des">
+                                <span>Екатерина</span>
+                            </div>
+                        </div>
+                        <div class="col-7">
+                            <div class="my_cab_balance">
+                                <h3 style="font-size: 16px;
+                                line-height: 20px;">БАЛАНС: </h3>
+                                <span>1000.75$</span>
+                                <img src="images/cab_line.png" alt>
+                                <h3 style="font-weight: 450;">в текущем периоде заработано: </h3>
+                                <span>12000.72$</span>
+                                <img src="images/cab_line.png" alt>
+                                <h3 style="font-weight: 450;">сумма в ожидании выплаты: </h3>
+                                <span>250.75$</span>
+                                <img src="images/cab_line.png" alt>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <span class="my_cab_des_email">ekaterina77524@gmail.com</span>
+                            <div style="text-align: center;">
+                                <button class="my_cab_balance_button">ЗАКАЗАТЬ ДОСРОЧНУЮ ВЫПЛАТУ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistica_zar">
+                    <h3>СТАТИСТИКА ЗАРАБОТКА</h3>
+                    <div class="statistica_zar_content">
+                        <a href="#"><img src="fonts/romb.svg" alt>
+                            <span>по дням/сайтам</span></a><br><br>
+                        <a href="#"><img src="fonts/romb.svg" alt>
+                            <span>по периодам/сайтам</span></a><br><br>
+                        <a href="#"><img src="fonts/romb.svg" alt>
+                            <span>общий доход за периоды</span></a><br><br>
+                        <a href="#"><img src="fonts/romb.svg" alt>
+                            <span>финансы и транзакции</span></a><br><br>
+                        <a href="#"><img src="fonts/romb.svg" alt>
+                            <span>платежные реквизиты</span></a>
+                        <div style="text-align: center;">
+                            <button>НАЧАТЬ РАБОТУ</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bloks">
+                    <div class="blocks_content">
+                        <details class="details_mobile">
+                            <summary class="summary_mobile">ИНФОРМАЦИЯ</summary>
+                            <div class="statistica_zar_content1">
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>с чего начать?</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>правила работы</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>наши преимущества</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>список вебкам сайтов</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>анонимность и безопасность</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>фото-инструкции и обучения</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>видео канал YouTube</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>инфо-канал Telegram</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>Вебкам Wikipedia</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>подарки моделям</span></a>
+                            </div>
+                        </details>
+                        <details class="details_mobile">
+                            <summary class="summary_mobile">ПАРТНЕРСКАЯ ПРОГРАММА</summary>
+                            <div class="statistica_zar_content1">
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>информация о программе</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>статистика и график</span></a>
+                            </div>
+                        </details>
+                        <details class="details_mobile">
+                            <summary class="summary_mobile">ПРОФИЛЬ</summary>
+                            <div class="statistica_zar_content1">
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>ваши контакты</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>анкета</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>портфолио</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>документы</span></a>
+                            </div>
+                        </details>
+                        <details class="details_mobile">
+                            <summary class="summary_mobile">ПОДДЕРЖКА 24/7</summary>
+                            <div class="statistica_zar_content1">
+                                <a href="#"><img src="images/tel1.png" alt class="left_menu_icon">
+                                    <span class="left_menu_contact"> +7 952 804 7607</span></a><br>
+                                <a href="#"><img src="images/teleg.png" alt class="left_menu_icon">
+                                    <span class="left_menu_contact">t.me/camwork</span></a><br>
+                                <a href="#"><img src="images/skype3.png" alt class="left_menu_icon">
+                                    <span class="left_menu_contact">live:support_62768</span></a><br>
+                                <a href="#"><img src="images/mail2.png" alt class="left_menu_icon">
+                                    <span class="left_menu_contact">support@camwork.club</span></a>
+                            </div>
+                        </details>
+                        <details class="details_mobile">
+                            <summary class="summary_mobile">ПОВЫШЕНИЕ ДОХОДА</summary>
+                            <div class="statistica_zar_content1" style="margin-bottom: 0px; width: 100%;">
+                                <p>Приглашаем Вас на бесплатное персональное обучение вебкам работе и курсы по повышению
+                                    заработка. </p>
+                                <p>Команда кураторов:
+                                    Елена, Яна, Диана, Ольга, Юлия, Егор</p>
+                                <a href="#"><img src="images/teleg.png" alt class="left_menu_icon">
+                                    <span class="left_menu_contact">t.me/CWTeach</span></a><br><br>
+                                <p>Ждем вас ежедневно, без выходных с 12 до 22 по Мск.</p>
+                            </div>
+                        </details>
+                        <details class="details_mobile">
+                            <summary class="summary_mobile">ПРИЛОЖЕНИЯ ДЛЯ РАБОТЫ</summary>
+                            <div class="statistica_zar_content1">
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>Skype</span></a><a href><span> (Скачать)</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>AnyDesk</span></a><a href><span> (Скачать)</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>TeamViewer</span></a><a href><span> (Скачать)</span></a><br><a href><img
+                                        src="images/you.png" alt class="left_menu_install_img"><span
+                                        class="left_menu_install">Установка и использование</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>OBS</span></a><a href><span> (Скачать)</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>SplitCAM</span></a><a href><span> (Скачать)</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>Vizit-X-Splitter</span></a><a href><span> (Скачать)</span></a><br>
+                                <a href="#"><img src="fonts/romb1.svg" alt>
+                                    <span>QTranslate</span></a><a href><span> (Скачать)</span></a><br><a href><img
+                                        src="images/you.png" alt class="left_menu_install_img"><span
+                                        class="left_menu_install">Установка и использование</span></a>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="menu">
+        </div>
+    </div>
+</header>
+
+<body class="body2 body3">
+    <div class="container-fluid">
+        <img src="images/logo.png" alt class="header_mobile_logo d-lg-none d-inline-block">
+        <ul id="myPanel" class="language-select">
+            <li data-lang="ru" class="active"><img src="images/map.png" alt
+                    class="main_head_menu_map main_head_menu_map1"></li>
+            <li data-lang="ru" class><img src="fonts/russia.svg" alt class="main_head_menu_map"></li>
+            <li data-lang="ua" class><img src="fonts/ukraine.svg" alt class="main_head_menu_map"></li>
+            <li data-lang="en" class><img src="fonts/united-kingdom.svg" alt class="main_head_menu_map"></li>
+        </ul>
+        <div class="row">
+            <div class="col_menu d-lg-block d-none">
+                <div class="left_menu">
+                    <div class="my_cab">
+                        <div class="row">
+                            <div class="col-5">
+                                <a href><img src="fonts/exit.svg" alt class="exit_button"></a>
+                                <div class="ava">
+                                    <img src="images/ava1.png" alt>
+                                    <button>+</button>
+                                </div>
+                                <div class="my_cab_des">
+                                    <span>Екатерина</span>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="my_cab_balance">
+                                    <h3 style="font-size: 16px;
+                                        line-height: 20px;">БАЛАНС:
+                                        <br>
+                                        <span>1000.75$</span>
+                                    </h3>
+                                    <img src="images/cab_line.png" alt>
+                                    <h3>в текущем периоде заработано: </h3>
+                                    <span>12000.72$</span>
+                                    <img src="images/cab_line.png" alt>
+                                    <h3>сумма в ожидании выплаты: </h3>
+                                    <span>250.75$</span>
+                                    <img src="images/cab_line.png" alt>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <span class="my_cab_des_email">ekaterina77524@gmail.com</span>
+                                <div style="text-align: center;">
+                                    <a href="early_payment.html"><button class="my_cab_balance_button">ЗАКАЗАТЬ
+                                            ДОСРОЧНУЮ ВЫПЛАТУ</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left_menu_fon">
+                        <div class="statistica_zar">
+                            <h3>СТАТИСТИКА ЗАРАБОТКА</h3>
+                            <div class="statistica_zar_content">
+                                <a href="statistica_site.html"><img src="fonts/romb.svg" alt>
+                                    <span>по дням/сайтам</span></a><br><br>
+                                <a href="statistica_time.html"><img src="fonts/romb.svg" alt>
+                                    <span>по периодам/сайтам</span></a><br><br>
+                                <a href="statistica.html"><img src="fonts/romb.svg" alt>
+                                    <span>общий доход за периоды</span></a><br><br>
+                                <a href="finance.html"><img src="fonts/romb.svg" alt>
+                                    <span>финансы и транзакции</span></a><br><br>
+                                <a href="props.html"><img src="fonts/romb.svg" alt>
+                                    <span>платежные реквизиты</span></a>
+                                <div style="text-align: center;">
+                                    <button>НАЧАТЬ РАБОТУ</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bloks">
+                            <div class="blocks_content">
+                                <details open>
+                                    <summary>ИНФОРМАЦИЯ</summary>
+                                    <div class="statistica_zar_content1">
+                                        <a href="info.html"><img src="fonts/romb1.svg" alt>
+                                            <span>правила работы</span></a><br>
+                                        <a href="main.html"><img src="fonts/romb1.svg" alt>
+                                            <span>список вебкам сайтов</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>анонимность и безопасность</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>фото-инструкции и обучения</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>видео канал YouTube</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>инфо-канал Telegram</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>Вебкам Wikipedia</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>прошлая версия сайта</span></a>
+                                    </div>
+                                </details>
+                                <details>
+                                    <summary>ПАРТНЕРСКАЯ ПРОГРАММА </summary>
+                                    <div class="statistica_zar_content1">
+                                        <a href="partnership.html"><img src="fonts/romb1.svg" alt>
+                                            <span>информация о программе</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>статистика и график</span></a>
+                                    </div>
+                                </details>
+                                <details open>
+                                    <summary>ПРОФИЛЬ</summary>
+                                    <div class="statistica_zar_content1">
+                                        <a href="contact_data.html"><img src="fonts/romb1.svg" alt>
+                                            <span>ваши контакты</span></a><br>
+                                        <a href="form.html"><img src="fonts/romb1.svg" alt>
+                                            <span>анкета</span></a><br>
+                                        <a href="portfolio.html"><img src="fonts/romb1.svg" alt>
+                                            <span>портфолио</span></a><br>
+                                        <a href="doc_select.html"><img src="fonts/romb1.svg" alt>
+                                            <span>документы</span></a>
+                                    </div>
+                                </details>
+                                <details open>
+                                    <summary>КРУГЛОСУТОЧНАЯ ПОДДЕРЖКА</summary>
+                                    <div class="statistica_zar_content1">
+                                        <a href="#"><img src="images/tel1.png" alt class="left_menu_icon">
+                                            <span class="left_menu_contact"> +7 952 804 7607</span>
+                                            <div style="display: inline-block;">
+                                                <a href="img/qr_vib.png" data-fancybox="images1">
+                                                    <img src="fonts/qr.svg" class="left_menu_qr" alt>
+                                                </a>
+
+                                            </div>
+                                        </a><br>
+                                        <a href="#"><img src="images/teleg.png" alt class="left_menu_icon">
+                                            <span class="left_menu_contact">t.me/camwork</span>
+                                            <div style="display: inline-block;">
+                                                <a href="img/qr_tg.png" data-fancybox="images2">
+                                                    <img src="fonts/qr.svg" class="left_menu_qr" alt>
+                                                </a>
+
+                                            </div>
+                                        </a><br>
+                                        <a href="#"><img src="images/skype3.png" alt class="left_menu_icon">
+                                            <span class="left_menu_contact">live:support_62768</span>
+                                            <div style="display: inline-block;">
+                                                <a href="img/qr_skype.png" data-fancybox="images3">
+                                                    <img src="fonts/qr.svg" class="left_menu_qr" alt>
+                                                </a>
+
+                                            </div>
+                                        </a><br>
+                                        <a href="#"><img src="images/mail2.png" alt class="left_menu_icon">
+                                            <span class="left_menu_contact">support@camwork.club</span></a>
+                                    </div>
+                                </details>
+                                <a href class="left_menu_banner">
+                                    <div class="banner">
+                                        <img src="images/banner1..jpg" alt class="banner1">
+                                    </div>
+                                </a>
+                                <details open>
+                                    <summary>ПОВЫШЕНИЕ ВАШЕГО ДОХОДА</summary>
+                                    <div class="statistica_zar_content1" style="margin-bottom: 0px; width: 100%;">
+                                        <p>Приглашаем Вас на бесплатное персональное обучение вебкам работе и курсы по
+                                            повышению заработка. </p>
+                                        <p>Команда кураторов:
+                                            Елена, Яна, Диана, Ольга, Юлия, Егор</p>
+                                        <a href="#"><img src="images/teleg.png" alt class="left_menu_icon">
+                                            <span class="left_menu_contact">t.me/CWTeach</span></a><br><br>
+                                        <p>Ждем вас ежедневно, без выходных с 12 до 22 по Мск.</p>
+                                    </div>
+                                </details>
+                                <details>
+                                    <summary>ПРИЛОЖЕНИЯ ДЛЯ РАБОТЫ</summary>
+                                    <div class="statistica_zar_content1">
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>Skype</span></a><a href><span> (Скачать)</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>AnyDesk</span></a><a href><span> (Скачать)</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>TeamViewer</span></a><a href><span> (Скачать)</span></a><br><a
+                                            href><img src="images/you.png" alt class="left_menu_install_img"><span
+                                                class="left_menu_install">Установка и использование</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>OBS</span></a><a href><span> (Скачать)</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>SplitCAM</span></a><a href><span> (Скачать)</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>Vizit-X-Splitter</span></a><a href><span> (Скачать)</span></a><br>
+                                        <a href="#"><img src="fonts/romb1.svg" alt>
+                                            <span>QTranslate</span></a><a href><span> (Скачать)</span></a><br><a
+                                            href><img src="images/you.png" alt class="left_menu_install_img"><span
+                                                class="left_menu_install">Установка и использование</span></a>
+                                    </div>
+                                </details>
+                                <a href class="left_menu_banner">
+                                    <div class="banner">
+                                        <img src="images/banner2.png" alt class="banner1">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col_content">
+                <div class="main_start_work">
+                    <div class="main_head">
+                        <div class="main_head_menu d-lg-block d-none">
+                            <div class="row">
+                                <div class="col-2">
+                                    <a href><img src="images/logo.png" alt class="main_head_menu_logo"></a>
+                                </div>
+                                <div class="col-2 main_head_menu_item">
+                                    <a href><span>С ЧЕГО НАЧАТЬ?</span></a>
+                                </div>
+                                <div class="col-3 main_head_menu_item">
+                                    <a href><span>НАШИ ПРЕИМУЩЕСТВА</span></a>
+                                </div>
+                                <div class="col-1 main_head_menu_item">
+                                    <a href><span>НОВОСТИ</span></a>
+                                </div>
+                                <div class="col-3 main_head_menu_item">
+                                    <a href><span>ПОДАРКИ МОДЕЛЯМ</span></a>
+                                </div>
+                                <div class="col-1">
+                                    <ul id="myPanel" class="language-select">
+                                        <li data-lang="ru" class="active"><img src="images/map.png" alt
+                                                class="main_head_menu_map main_head_menu_map1"></li>
+                                        <li data-lang="ru" class><img src="fonts/russia.svg" alt
+                                                class="main_head_menu_map"></li>
+                                        <li data-lang="ua" class><img src="fonts/ukraine.svg" alt
+                                                class="main_head_menu_map"></li>
+                                        <li data-lang="en" class><img src="fonts/united-kingdom.svg" alt
+                                                class="main_head_menu_map"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2>ПОДАРКИ МОДЕЛЯМ</h2>
+                        <div class="content">
+                            <div class="container_fill">
+                                <div class="content1">
+                                    <nav class="hed_container">
+                                        <img class="log" src="/images/camwork.svg"><span class="hed_title"> РОЗЫГРЫШ #1
+                                            <br>февраль 2023</span>
+                                        <span class="hed_box">
+                                            <img class="site" src="/images/SkyPrivate_1.png" alt="SkyPrivate"><img
+                                                class="site" src="/images/CamLust_1.png" alt="CamLust"></span>
+                                        <span class="hed_box">Победителей: 6</span>
+                                        <span class="hed_box1">Призов отправлено: 5</span>
+                                        <div class="accordion"><img src="images/Vector.svg" alt=""></div>
+                                    </nav>
+                                </div>
+                                <div class="main_content">
+                                    <img src="images/banner3.png" alt="">
+                                    <div class="main_content_span">
+                                        <span class="bold">Сайты месяца:</span> SkyPrivate и(или) CamLust.
+                                        <br><br>
+                                        <span class="bold">Условия:</span> предлагаем вам новый формат розыгрыша! Время
+                                        в
+                                        онлайне не имеет значения!
+                                        Модели, заработавшие минимум 10$ на сайтах SkyPrivate и(или) CamLust в период с
+                                        1 по
+                                        28 февраля включительно и подали заявку в личном кабинете.
+                                        <br><br>
+                                        <span class="bold">ГЛАВНЫЙ ПРИЗ:</span> ЛЮБАЯ интерактивная игрушка Lovense
+                                        (кроме
+                                        Lovense Sex Machine).
+                                        <br><br>
+                                        <span class="bold">5 ПРИЗОВ:</span> Каждая из пяти победивших моделей выбирает
+                                        один
+                                        из подарков - <a href="https://youtu.be/fPXkmYXzp-g"><span
+                                                class="color_decor">цветная
+                                                кольцевая лампа</span></a>, <a href="https://youtu.be/hc8pc6GbLpQ"><span
+                                                class="color_decor">лазерный проектор</span></a>,
+                                        <a href="https://youtu.be/YhJD9IP0_BE"><span class="color_decor">гирлянда на
+                                                фон</span></a>, <a href="https://youtu.be/1Z8EmaZF1Y4"><span
+                                                class="color_decor">sunset
+                                                лампа</span></a> или <a href="https://youtu.be/wPHEWnjx9Z0"><span
+                                                class="color_decor">угловой
+                                                торшер</span></a>.
+                                    </div>
+                                </div>
+
+                                <div class="acc_info">
+                                    <div class="winner">
+                                        <div class="gold">
+                                            <div class="win_content">
+                                                <img src="/images/1win.svg">
+                                                <span class="title_win"> Главный победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> M.A
+                                                    <br>
+                                                    <span class="inc">Почта:</span> li*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span><a
+                                                    href="https://www.lovense.com/r/hz0ufg">&nbsp;<span
+                                                        class="prize_lov">Lovense
+                                                        Gravity</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="win_content">
+                                                <img src="/images/2win.svg">
+                                                <span class="title_win">Победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> S.Y
+                                                    <br>
+                                                    <span class="inc">Почта:</span> mi*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span><a
+                                                    href="https://youtu.be/1Z8EmaZF1Y4">&nbsp;<span class="prize">SUNSET
+                                                        лампа</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="win_content">
+                                                <img src="/images/3win.svg">
+                                                <span class="title_win">Победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> A.S
+                                                    <br>
+                                                    <span class="inc">Почта:</span> ko*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span><a
+                                                    href="https://youtu.be/fPXkmYXzp-g">&nbsp;<span
+                                                        class="prize">Кольцевая
+                                                        лампа</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="win_content">
+                                                <img src="/images/4win.svg">
+                                                <span class="title_win"> Победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> B.I
+                                                    <br>
+                                                    <span class="inc">Почта:</span> in*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span><a
+                                                    href="https://youtu.be/wPHEWnjx9Z0">&nbsp;<span
+                                                        class="prize">Угловой
+                                                        торшер</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="win_content">
+                                                <img src="/images/5win.svg">
+                                                <span class="title_win">Победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> P.I
+                                                    <br>
+                                                    <span class="inc">Почта:</span> ir*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span><a
+                                                    href="https://youtu.be/wPHEWnjx9Z0">&nbsp;<span
+                                                        class="prize">Угловой
+                                                        торшер</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="win_content">
+                                                <img src="/images/6win.svg">
+                                                <span class="title_win">Победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> G.A
+                                                    <br>
+                                                    <span class="inc">Почта:</span> xk*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span>&nbsp;<span class="non">Модель не
+                                                    ответила</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="container">
+
+                        <div class="content">
+                            <div class="container_fill">
+                                <div class="content1">
+                                    <nav class="hed_container">
+                                        <img class="log" src="/images/camwork.svg"><span class="hed_title"> РОЗЫГРЫШ #1
+                                            <br>февраль 2023</span>
+                                        <span class="hed_box">
+                                            <img class="site" src="/images/SkyPrivate_1.png" alt="SkyPrivate"><img
+                                                class="site" src="/images/CamLust_1.png" alt="CamLust"></span>
+                                        <span class="hed_box">Победителей: 6</span>
+                                        <span class="hed_box1">Призов отправлено: 5</span>
+                                        <div class="accordion"><img src="images/Vector.svg" alt=""></div>
+                                    </nav>
+                                </div>
+                                <div class="main_content">
+                                    <img src="images/banner3.png" alt="">
+                                    <div class="main_content_span">
+                                        <span class="bold">Сайты месяца:</span> SkyPrivate и(или) CamLust.
+                                        <br><br>
+                                        <span class="bold">Условия:</span> предлагаем вам новый формат розыгрыша! Время
+                                        в
+                                        онлайне не имеет значения!
+                                        Модели, заработавшие минимум 10$ на сайтах SkyPrivate и(или) CamLust в период с
+                                        1 по
+                                        28 февраля включительно и подали заявку в личном кабинете.
+                                        <br><br>
+                                        <span class="bold">ГЛАВНЫЙ ПРИЗ:</span> ЛЮБАЯ интерактивная игрушка Lovense
+                                        (кроме
+                                        Lovense Sex Machine).
+                                        <br><br>
+                                        <span class="bold">5 ПРИЗОВ:</span> Каждая из пяти победивших моделей выбирает
+                                        один
+                                        из подарков - <a href="https://youtu.be/fPXkmYXzp-g"><span
+                                                class="color_decor">цветная
+                                                кольцевая лампа</span></a>, <a href="https://youtu.be/hc8pc6GbLpQ"><span
+                                                class="color_decor">лазерный проектор</span></a>,
+                                        <a href="https://youtu.be/YhJD9IP0_BE"><span class="color_decor">гирлянда на
+                                                фон</span></a>, <a href="https://youtu.be/1Z8EmaZF1Y4"><span
+                                                class="color_decor">sunset
+                                                лампа</span></a> или <a href="https://youtu.be/wPHEWnjx9Z0"><span
+                                                class="color_decor">угловой
+                                                торшер</span></a>.
+                                    </div>
+                                </div>
+
+                                <div class="acc_info">
+                                    <div class="winner">
+                                        <div class="gold">
+                                            <div class="win_content">
+                                                <img src="/images/1win.svg">
+                                                <span class="title_win"> Главный победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> M.A
+                                                    <br>
+                                                    <span class="inc">Почта:</span> li*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span><a
+                                                    href="https://www.lovense.com/r/hz0ufg">&nbsp;<span
+                                                        class="prize_lov">Lovense
+                                                        Gravity</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="win_content">
+                                                <img src="/images/2win.svg">
+                                                <span class="title_win">Победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> S.Y
+                                                    <br>
+                                                    <span class="inc">Почта:</span> mi*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span><a
+                                                    href="https://youtu.be/1Z8EmaZF1Y4">&nbsp;<span class="prize">SUNSET
+                                                        лампа</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="win_content">
+                                                <img src="/images/3win.svg">
+                                                <span class="title_win">Победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> A.S
+                                                    <br>
+                                                    <span class="inc">Почта:</span> ko*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span><a
+                                                    href="https://youtu.be/fPXkmYXzp-g">&nbsp;<span
+                                                        class="prize">Кольцевая
+                                                        лампа</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="win_content">
+                                                <img src="/images/4win.svg">
+                                                <span class="title_win"> Победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> B.I
+                                                    <br>
+                                                    <span class="inc">Почта:</span> in*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span><a
+                                                    href="https://youtu.be/wPHEWnjx9Z0">&nbsp;<span
+                                                        class="prize">Угловой
+                                                        торшер</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="win_content">
+                                                <img src="/images/5win.svg">
+                                                <span class="title_win">Победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> P.I
+                                                    <br>
+                                                    <span class="inc">Почта:</span> ir*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span><a
+                                                    href="https://youtu.be/wPHEWnjx9Z0">&nbsp;<span
+                                                        class="prize">Угловой
+                                                        торшер</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="win_content">
+                                                <img src="/images/6win.svg">
+                                                <span class="title_win">Победитель:</span>
+                                                <ul class="bas">
+                                                    <span class="inc">Инициалы:</span> G.A
+                                                    <br>
+                                                    <span class="inc">Почта:</span> xk*****@gmail.com
+                                                </ul>
+                                                <span class="title_win">Подарок:</span>&nbsp;<span class="non">Модель не
+                                                    ответила</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script>
+                
+                var accordion = document.querySelector('.accordion');
+                var accInfo = document.querySelector('.acc_info');
+                var accordionImg = accordion.querySelector('img');
+
+                console.log('accordion:', accordion);
+                console.log('accInfo:', accInfo);
+                console.log('accordionImg:', accordionImg);
+
+                accordion.addEventListener('click', function () {
+                    if (accInfo.classList.contains('active')) {
+                        accInfo.classList.remove('active');
+                        accInfo.style.maxHeight = '0';
+                    } else {
+                        accInfo.style.maxHeight = accInfo.scrollHeight + 'px';
+                        accInfo.classList.add('active');
+                    }
+                    accordionImg.classList.toggle('rotate');
+                });
+            </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script>
+                var details = document.querySelectorAll(".details_mobile");
+                for (i = 0; i < details.length; i++) {
+                    details[i].addEventListener("toggle", accordion);
+                }
+                function accordion(event) {
+                    if (!event.target.open) return;
+                    var details = event.target.parentNode.children;
+                    for (i = 0; i < details.length; i++) {
+                        if (details[i].tagName != "DETAILS" ||
+                            !details[i].hasAttribute('open') ||
+                            event.target == details[i]) {
+                            continue;
+                        }
+                        details[i].removeAttribute("open");
+                    }
+                }
+            </script>
+            <script crossorigin="anonymous" src="js/jquery.slim.min.js"></script>
+            <script crossorigin="anonymous" src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery.fancybox.min.js"></script>
+            <script>
+                function consoleBG() {
+                    if ($(window).scrollTop() == 0) {
+                        $('header').css('position', 'fixed');
+                    } else {
+                        $('header').css('position', 'fixed');
+                    }
+                }
+                consoleBG();
+
+                $(window).scroll(function () {
+                    consoleBG();
+                });
+            </script>
+            <script>
+                const sh = document.documentElement.clientHeight + 100
+                $('.mscrollbar').css('height', sh)
+            </script>
+            <script>
+                $("#menu__toggle").on("click", function () {
+                    if ($(this).is(":checked")) {
+                        $("body").css('overflow', 'hidden')
+                        $(".left_mobile_menu_btn").css('border-radius', '0px 0px 45px 0px')
+                    } else {
+                        $("body").css('overflow', 'initial')
+                        $(".left_mobile_menu_btn").css('border-radius', '0px 0px 0px 45px')
+                    }
+                })</script>
+            <script>
+                $('.language-select').click(function () {
+                    $(this).toggleClass('open');
+                    $(".language-select li ").css('background', 'rgb(50,50,50)');
+                })
+
+                $('.language-select li').click(function () {
+                    var setLang = $('.language-select').data('location'),
+                        dataLangSelect = $(this).data('lang')
+                    $('.language-select').data('location', dataLangSelect);
+                    $('.language-select li').removeClass('active');
+                    $(this).toggleClass('active');
+                })
+            </script>
+
+</body>
+
+</html>
